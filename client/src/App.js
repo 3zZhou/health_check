@@ -129,7 +129,7 @@ class App extends Component {
     return (
       <div className="form-group">
         <h1>Health Check Data</h1>
-        <button onClick={() => this.putDataToDb()} >Put Raw Data to Db</button>
+        <button onClick={() => this.putDataToDb()} >Put Data to Db</button>
         <br />
         <button onClick={() => this.openGetRawDataAPI()} >Get Raw Data from Db</button>
         <br />
@@ -138,7 +138,7 @@ class App extends Component {
         <pre>
           <h2>Current Raw Data in JSON format</h2>
           {JSON.stringify(rawData, null, 2)} <br />
-          <h2>Current Events in JSON format</h2>
+          <h2>Current Event in JSON format</h2>
           {JSON.stringify(events, null, 2)}
         </pre>
       </div>
