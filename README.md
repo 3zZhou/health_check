@@ -16,7 +16,27 @@
   npm start
   ```
 
-  under the health_check folder
+  under the "health_check" folder
+  
+* If there is an error “'react-scripts' is not recognized as an internal or external command” occurred, follow the steps:
+
+  * cd the client folder
+
+  * run 
+
+    ```cmd
+      npm install
+    ```
+
+    under the "client" folder
+
+  * run 
+
+    ```cmd
+      npm start
+    ```
+
+    again under the outside "health_check" folder
 
 ## Test Cases
 
